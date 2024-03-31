@@ -80,7 +80,13 @@ img {
 }
 
 .hero {
-  background-color: #2e2f42;
+  
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+    background-color: #2e2f42;
 }
 
 .hero_title {
@@ -248,6 +254,7 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 .container {
@@ -361,6 +368,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 8px;
 }
 
 .time_icon_list {
