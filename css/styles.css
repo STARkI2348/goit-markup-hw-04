@@ -333,7 +333,10 @@ header {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.time_link_icon:hover,
+.time_link_icon:hover {
+  background-color: #404bbf;
+}
+
 .time_link_icon:focus {
   background-color: #404bbf;
 }
@@ -438,7 +441,11 @@ header {
 
 .footer .container {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
+}
+
+.footer_content_wrap {
+  margin-right: 120px;
 }
 
 .logo_link_footer {
@@ -477,7 +484,7 @@ header {
 
 .footer_icon_list {
   display: flex;
-  gap: 24px;
+  gap: 16px;
 }
 
 .footer_link_icon {
@@ -495,7 +502,10 @@ header {
   fill: #f4f4fd;
 }
 
-.footer_link_icon:hover,
+.footer_link_icon:hover {
+  background-color: #31d0aa;
+}
+
 .footer-icon-link:focus {
   background-color: #31d0aa;
 }
