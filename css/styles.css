@@ -500,6 +500,6 @@ header {
 }
 
 .footer_link_icon:hover,
-.footer-icon-link:focus {
+.footer_link_icon:focus {
   background-color: #31d0aa;
 }
